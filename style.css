@@ -152,6 +152,17 @@ svg{
     font-size:1.15rem;
     color:#9f9f9f;
 }
+.pet-filter .active,
+.pet-filter .active:hover {
+    color:#475aff;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.pet-filter button:hover{
+    color:#7d7d7d;
+
+}
 .site-footer{
     text-align: center;
     font-size: 0.875rem;
