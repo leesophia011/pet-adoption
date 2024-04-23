@@ -10,7 +10,7 @@ async function start(){
 start()
 
 async function petsArea(){
- const petsPromise = await fetch("https://joyful-granita-840652.netlify.app/.netlify/functions/pets")
+ const petsPromise = await fetch("https://stirring-speculoos-8bc11f.netlify.app/.netlify/functions/pets")
  const petsData = await petsPromise.json()
  
  petsData.forEach(pet => {
